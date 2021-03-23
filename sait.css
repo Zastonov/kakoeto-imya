@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    min-height: 10%;
+    position: relative;
+}
+.content {
+    padding-bottom: 0px;
+}
+.footer {
+    height: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
