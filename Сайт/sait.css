@@ -1,0 +1,74 @@
+body{
+background-color:#f8f8f8
+}
+.first{
+    color: rgb(63, 54, 50);
+    font-style: oblique;
+}
+.glav{
+    text-decoration: none;
+    color: rgb(132, 30, 153);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.kontakti{
+    text-decoration: none;
+    color: chocolate;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.katalog{
+    text-decoration: none;
+    color: darkgray;
+    font-family: sans-serif;
+}
+.opisanie{
+    
+    font-size: 18px;
+    font-weight: 400;
+}
+.cvet{
+    background-color: #eaeaea ;
+}
+.text{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.krat{
+    color:#484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    min-height: 10%;
+    position: relative;
+}
+.content {
+    padding-bottom: 0px;
+}
+.footer {
+    height: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
