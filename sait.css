@@ -47,6 +47,20 @@ background-color:#f8f8f8
 
 
 
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: cadetblue;
+}
+.header{
+    margin: auto;
+}
+ul{
+    list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
 
 
 

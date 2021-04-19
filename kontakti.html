@@ -1,16 +1,24 @@
 <html>
     
     <link rel="stylesheet" href="sait.css">
+    <link rel="stylesheet" href="kont.css">
 <head>
 <title>Flos Tabernam</title>
 </head>
 <body>
     
-    <h1> <center>Добро пожаловать в Flos Tabernam</center></h1> <hr>
-    <h2>Меню
-    <h2><a href="index.html" class="glav">Главная</a href>
-    <br><a href="katalog.html" class="katalog">Каталог</a href></a>
-    <br><a href="kontakti.html" class="kontakti">Контакты</a href></h2>
+    <header> 
+        <h1> <center>Добро пожаловать в Flos Tabernam</center></h1> <hr>
+        <div class="header">
+        <table>
+            <td><a href="#"><img src="/photo/logo.png" width="100px" height="70px"></a></td>
+        </div>
+           <td><h2>Меню
+            <h2><a href="index.html" class="glav">Главная</a>
+            <br><a href="katalog.html" class="katalog">Каталог</a>
+            <br><a href="kontakti.html" class="kontakti">Контакты</a></h2></td>
+        </table>
+        </header> 
 <hr>
 <h1><center>Напишите нам</center></h1>
 <table border="1" cellpadding="10px" style="background-color: rgb(235, 227, 217);">
@@ -24,7 +32,7 @@
 <form id="contact" action="#" method="post" name="contact">
 <input id="name" class="txt" name="name" type="name" placeholder="Ваше имя">
 <input id="phone" class="txt" name="phone" type="phone" placeholder="Ваш телефон"> 
-<input id="email" class="txt" name="email" type="email" placeholder="Ваш e-mail"> 
+<input id="email" class="mail" name="email" type="email" placeholder="Ваш e-mail"> 
 <textarea id="msg" class="txtarea" name="msg" placeholder="Ваше сообщение:"></textarea><button id="send">Отправить</button></form></div>
 
 
