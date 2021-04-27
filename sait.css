@@ -42,8 +42,11 @@ background-color:#f8f8f8
     text-align: left;
 }
 
-
-
+.menu{
+    color: darkolivegreen;
+    margin: 0;
+    padding: 0;
+}
 
 
 
@@ -81,8 +84,9 @@ html, body {
     padding-bottom: 0px;
 }
 .footer {
+    text-align: right;
     height: 0px;
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
+
